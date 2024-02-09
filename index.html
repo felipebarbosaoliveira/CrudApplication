@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>AgendaCrud</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Teste de Crud</h1>
+        <div id="input-container">
+          <input type="text" id="name-input" placeholder="Digitar nome">
+          <input type="email" id="email-input" placeholder="Digitar email">
+          <button id="add-btn">Adicionar</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Açoes</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+        <div id="update-container">
+          <input type="text" id="update-name-input">
+          <input type="text" id="update-email-input">
+          <button id="update-btn">Atualizar</button>
+          <button id="cancel-btn">Cancelar</button>
+        </div>
+      </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
